@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ae7122677.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="x-icon" href="logo.jpg">
+</head>
+<body>
+    <section id="home">
+        <nav class="navbar">
+            <a href="#home"><img src="logo.jpg" width="50px" height="50px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contacts">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Workout Peacefully At Our Gym</h1>
+            <p>You can workout peacefully at out gym for a cheap price.
+            Don't miss this oppotunity and get a <br>membership now for a very low price.
+            We are putting a 20% offer for this month, so buy a membership now.
+            </p>
+            <a href="#membership" class="hero-btn">Get A Membership now !</a>
+        </div>
+    </section>
+    <section id="membership">
+        <div class="plans">
+            <div class="monthly">
+                <h2>MONTHLY PLAN</h2>
+                <h1>$40<span>/month</span></h1>
+                <b>This is very limited time offer which is ending next month.</b>
+                <p>By subscribing this deal, you can come here anytime and workout monthly.</p>
+                <div class="ribbon-wrap">
+                    <div class="ribbon">20% OFFER!</div>
+                </div>
+            </div>
+            <div class="yearly">
+                <h2>YEARLY PLAN</h2>
+                <h1>$100<span>/year</span></h1>
+                <b>We highly recommend this plan for long term.</b>
+                <p>By subscribing this deal, you can come here anytime and workout yearly.</p>
+                <div class="ribbon-wrap2">
+                    <div class="ribbon2">RECOMMENDED!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <h1>Reviews</h1>
+        <div class="border"></div>
+        <div class="row">
+            <div class="col">
+                <div class="review">
+                    <img src="umaria.jpg" width="150px" height="150px">
+                    <div class="name">Umaria Sinhawansha</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>This is the best gym that I've ever been to. I highly recommend going to this gym. I have this look because of this gym.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="review">
+                    <img src="bathiya.jpg" width="150px" height="150px">
+                    <div class="name">Bathiya Jayakody</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>The customer service is really good and there's plenty of space in this gym. There should be more workouts.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="review">
+                    <img src="santhush.jpg" width="150px" height="150px">
+                    <div class="name">Santhush Weeraman</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>They deliver customer service really good for a cheap price. This gym is great for people who wants to workout peacefully.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>228/11, Serendib Court,<br>Gamunu Mawatha, Walana,<br>Panadura, Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>0718223026</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>neeliperera@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Us A Message</h2>
+                    <div class="inputBox">
+                        <input type="text" required="required" spellcheck="false">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" required="required" spellcheck="false">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required" spellcheck="false"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
